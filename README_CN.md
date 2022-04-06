@@ -1,18 +1,20 @@
 # Honor-Magicbook
-华为荣耀 Magicbook i5-8250u 14寸 黑苹果
+华为荣耀 Magicbook i7-8550u 14寸 黑苹果
 
-不再支持 Clover
+[English](README.md) | [中文](README_CN.md) |
+[版本记录](VERSION.md)
 
-[English](README.md) | [中文](README_CN.md)
+基于[hjmmc/Honor-Magicbook](https://github.com/hjmmc/Honor-Magicbook)
+大佬原版自用修改
 
 ## Configuration
 
 | 描述   | 详情                                                  |
 | ------------------- | ------------------------------------------- |
 | 电脑型号      | 华为荣耀 Magicbook      |
-| 处理器           | 英特尔酷睿i5-8250U处理器     |
+| 处理器           | 英特尔酷睿i7-8550U处理器     |
 | 内存              | 8 GB 2133 MHz DDR3              |
-| 硬盘           | SanDisk SD9SN8W256G1027 SATA    |
+| 硬盘           | WD Blue SN550 NVMe SSD    |
 | 显卡 | Intel UHD Graphics 620 2048 MB                     |
 | 声卡         | Realtek ALC256           |
 | 摄像头 | hm1091_techfront |

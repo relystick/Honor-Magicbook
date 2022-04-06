@@ -1,9 +1,10 @@
 # Honor-Magicbook
 Honor-Magicbook i5-8250u 14'' Hackintosh
 
-No More Clover
+[English](README.md) | [中文](README_CN.md) |
+[版本记录](VERSION.md)
 
-[English](README.md) | [中文](README_CN.md)
+According to the original use of [hjmmc/Honor-Magicbook](https://github.com/hjmmc/Honor-Magicbook) tycoon modified
 
 ## Configuration
 
