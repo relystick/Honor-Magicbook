@@ -462,7 +462,7 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
                     <string>Internal</string>
@@ -479,16 +479,10 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AAAWWQ==</data>
-                    <key>complete-modeset-framebuffers</key>
-                    <data>AAAAAAAAAAE=</data>
                     <key>device-id</key>
                     <data>FlkAAA==</data>
                     <key>enable-hdmi20</key>
                     <data>AQAAAA==</data>
-                    <key>force-online</key>
-                    <data>AQAAAA==</data>
-                    <key>force-online-framebuffers</key>
-                    <data>AAAAAAAAAAE=</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-type</key>
@@ -497,16 +491,16 @@
                     <data>AAAAAA==</data>
                     <key>framebuffer-con2-index</key>
                     <data>/////w==</data>
-                    <key>framebuffer-cursormem</key>
-                    <data>AACQAA==</data>
                     <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
+                    <data>AAAAAw==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
+                    <data>AAAACA==</data>
                     <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
+                    <data>AAAAwA==</data>
+                    <key>model</key>
+                    <string>Intel UHD Graphics 620</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1181,7 +1175,7 @@
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>boot-args</key>
-                    <string>gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203 brcmfx-driver=2 brcmfx-country=CN</string>
+                    <string>gfxrst=1 igfxonln=1 igfxonlnfbs=0x010203 brcmfx-driver=2 brcmfx-country=#a</string>
                     <key>bootercfg</key>
                     <string>log=0 debug=0 level=0</string>
                     <key>csr-active-config</key>
@@ -1221,23 +1215,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02827270QXHRPCJA</string>
+                <string>C02831500GUHWVP1M</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>aJGF6T7r</data>
+                <data>j6lgin/y</data>
                 <key>SpoofVendor</key>
                 <false/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro14,2</string>
+                <string>MacBookPro14,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02X13Y7HV2N</string>
+                <string>C02X5CYFHV29</string>
                 <key>SystemUUID</key>
-                <string>E9F7A7C2-C480-404C-9CC2-8AF9E77D0501</string>
+                <string>AA86ED50-ACF4-46C0-98E2-40B9F53668B8</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1274,7 +1268,7 @@
                 <key>CustomDelays</key>
                 <false/>
                 <key>GraphicsInputMirroring</key>
-                <false/>
+                <true/>
                 <key>KeyInitialDelay</key>
                 <integer>50</integer>
                 <key>KeySubsequentDelay</key>
@@ -1282,9 +1276,9 @@
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
-                <integer>0</integer>
+                <integer>80</integer>
                 <key>PointerPollMin</key>
-                <integer>0</integer>
+                <integer>10</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1297,9 +1291,9 @@
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
                 <key>AudioOutMask</key>
-                <integer>-1</integer>
+                <integer>1</integer>
                 <key>AudioSupport</key>
-                <false/>
+                <true/>
                 <key>DisconnectHda</key>
                 <false/>
                 <key>MaximumGain</key>
@@ -1307,7 +1301,7 @@
                 <key>MinimumAssistGain</key>
                 <integer>-30</integer>
                 <key>MinimumAudibleGain</key>
-                <integer>-128</integer>
+                <integer>-55</integer>
                 <key>PlayChime</key>
                 <string>Auto</string>
                 <key>ResetTrafficClass</key>
@@ -1448,7 +1442,7 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
-                <false/>
+                <true/>
                 <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
@@ -1458,7 +1452,7 @@
                 <key>ForgeUefiSupport</key>
                 <false/>
                 <key>IgnoreInvalidFlexRatio</key>
-                <false/>
+                <true/>
                 <key>ReleaseUsbOwnership</key>
                 <true/>
                 <key>ReloadOptionRoms</key>
